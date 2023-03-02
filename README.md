@@ -2,7 +2,7 @@
 example of Matplolib basic usage and animation function.
 # 一、引入
 Matplotlib 是一个Python的综合库，用于在 Python 中创建静态、动画和交互式可视化。
-本教程包含笔者在使用Matplotlib库过程中遇到的各类完整实例与用法还有遇到的库理论问题，可以根据自己的需要在目录中查询对应的用法、实例以及第四部分关于理论的讨论。
+本教程包含笔者在使用Matplotlib库过程中遇到的各类完整实例与用法还有遇到的库理论问题，可以根据自己的需要在目录中查询对应的用法、实例以及第三部分关于理论的讨论。
 教程参考了Eric Matthes的Python Crash Course中的Matplotlib部分和Matplotlib官方示例。
 如果你希望了解更详细的用法和实例，可以查看[Matplotlib官方网站](https://matplotlib.org/)和[Python Crash Course](https://ehmatthes.github.io/pcc/)。
 # 二、用法部分
@@ -284,11 +284,8 @@ ani = animation.FuncAnimation(fig=fig, func=update, frames=frame, interval=10, b
 ```
 创建动画的完整代码在实例部分，演示了线或者点创建出Sin/Cos完整动画的全过程，你可以参考这个代码来体会动画的创建。
 
-# 三、实例部分
-实例部分提供了一些基础的具有详细注释的简单例子，还有有一些有趣的小项目，比如点的随机漫步图、Sin函数动画等，你可以在github或gitee上下载代码：
 
-
-# 四、理论部分
+# 三、理论部分
 ## 1.Artist、Figure、Axes、Axis的区别
 ### Artist
 基本上，图形上可见的所有内容都是Artist，包括Figure、Axes和Axis对象。
@@ -365,3 +362,8 @@ plt.show()
 plt.close("all")
 ```
 
+
+# 四、实例部分
+实例部分提供了一些基础的具有详细注释的简单例子，还有有一些有趣的小项目，比如点的随机漫步图、Sin函数动画等，你可以在github或gitee上下载代码：
+Github:[https://github.com/Hermanye996/Matplotlib_example](https://github.com/Hermanye996/Matplotlib_example)
+Gitee:[https://gitee.com/hermanye233/Matplotlib_example](https://gitee.com/hermanye233/Matplotlib_example)
